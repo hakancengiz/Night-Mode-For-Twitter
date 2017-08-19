@@ -222,3 +222,44 @@ a.account-group:focus .fullname,
 .recap-header .dropdown {
     color: #eee;
 }
+.WtfLargeCarouselStreamItem-title {
+    color: #eee;
+}
+.ProfileCard {
+    background-color: #171718;
+    border: 1px solid #141313;
+    color: #eee;
+}
+.ProfileCard-bio {
+    color: #eee;
+}
+.ThreadedConversation-showMoreThreads {
+    background-color: #171718;
+    border: 1px solid #141313;
+    color: #eee;
+}
+.stream-end {
+    background-color: #171718;
+}
+.ThreadedConversation--header {
+    background-color: #171718;
+    border: 1px solid #141313;
+    color: #eee;
+}
+.ProfileNav-item--userActions {
+    background-color: #171718;
+}
+.ProfileSidebar .flex-module-header h3
+{
+    color: #eee;
+}
+.ProfileHeaderCard h1 {
+    color: #eee;
+}
+.ProfileAvatar {
+    background-color: #171718;
+    border: 5px solid #171718;
+}
+.Icon--protected {
+    color: #eee;
+}
