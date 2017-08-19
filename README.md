@@ -7,9 +7,9 @@
 
 ### How to install
 
-1) Intall Google Chrome extensions like Stylus, Stylish or Stylebot
+1) Install a Google Chrome extension to edit css. (For instance: Stylus, Stylish or Stylebot)
 2) Copy the codes which find in Night-Mode.css file
-3) Paste into Stylus, Stylish or Stylebot (You can use any plugin that inserts CSS)
+3) Paste into app (You can use any plugin that inserts CSS)
 4) Enjoy the theme!
 
 ### Screenshots
