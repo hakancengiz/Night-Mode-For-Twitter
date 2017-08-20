@@ -96,7 +96,7 @@ a.account-group:focus .fullname,
 .module .flex-module {
     background-color: #171718;
     border-radius: 4px;
-    border: 0px solid #141313;
+    border: 0 solid #141313;
     color: #eee;
 }
 .flex-module-header h3 {
@@ -158,8 +158,8 @@ a.account-group:focus .fullname,
     background-color: #0f0f0f;
 }
 #global-actions > li > a {
-   color: #b8c1d1;
-   border-bottom-color:  #b8c1d1;
+    color: #b8c1d1;
+    border-bottom-color: #b8c1d1;
 }
 .global-nav .search-input {
     color: #626161;
@@ -170,7 +170,8 @@ a.account-group:focus .fullname,
     border: 2px solid #c4c4c4;
     color: #c4c4c4;
 }
-.permalink-tweet, .permalink-tweet:hover {
+.permalink-tweet,
+.permalink-tweet:hover {
     background-color: #171718;
     border: 1px solid #141313;
     color: #fff;
@@ -178,7 +179,9 @@ a.account-group:focus .fullname,
 .permalink.has-replies .inline-reply-tweetbox {
     border-bottom-color: #141313;
 }
-.permalink .in-reply-to .tweet, .permalink .replies-to .tweet, .permalink .replies-to .ThreadedConversation--loneTweet .stream-tombstone-item {
+.permalink .in-reply-to .tweet,
+.permalink .replies-to .tweet,
+.permalink .replies-to .ThreadedConversation--loneTweet .stream-tombstone-item {
     border-bottom: #141313;
 }
 .ProfileCanopy-navBar {
@@ -190,10 +193,11 @@ a.account-group:focus .fullname,
 }
 .ProfileHeading-content {
     background-color: #171718;
-    border: 1px solid #141313;  
+    border: 1px solid #141313;
 }
-.ProfileHeading-toggleItem.is-active, .ProfileHeading-toggleItem.is-active:hover, .ProfileHeading-toggleItem.is-active:focus
-{
+.ProfileHeading-toggleItem.is-active,
+.ProfileHeading-toggleItem.is-active:hover,
+.ProfileHeading-toggleItem.is-active:focus {
     color: #eee;
 }
 .ProfileHeaderCard-bio {
@@ -209,7 +213,8 @@ a.account-group:focus .fullname,
 .NotificationsHeadingContent {
     border-color: #171718;
 }
-.content-header, .content-no-header {
+.content-header,
+.content-no-header {
     border-color: #171718;
 }
 .QuoteTweet-container:hover {
@@ -249,8 +254,7 @@ a.account-group:focus .fullname,
 .ProfileNav-item--userActions {
     background-color: #171718;
 }
-.ProfileSidebar .flex-module-header h3
-{
+.ProfileSidebar .flex-module-header h3 {
     color: #eee;
 }
 .ProfileHeaderCard h1 {
@@ -262,4 +266,36 @@ a.account-group:focus .fullname,
 }
 .Icon--protected {
     color: #eee;
+}
+.vellip,
+.vellip:before,
+.vellip:after,
+.conversation-module > li:after,
+.conversation-module > li:before,
+.ThreadedConversation-tweet:not(.is-hiddenAncestor) ~ .ThreadedConversation-tweet:before,
+.ThreadedConversation-tweet:after,
+.ThreadedConversation-moreReplies:before,
+.ThreadedConversation-viewOther:before,
+.ThreadedConversation-unavailableTweet:before,
+.ThreadedConversation-unavailableTweet:after,
+.ThreadedConversation--permalinkTweetWithAncestors:before {
+    border-color: #b7b7b7;
+}
+.username {
+    color: #426dd0;
+}
+.ProfileTweet-actionCount {
+    color: #a0a0a0;
+}
+.Icon {
+    color: #a0a0a0;
+}
+.stats .stat-count strong {
+    color: #a0a0a0;
+}
+.stats a {
+    color: #a0a0a0;
+}
+.Icon--verified:after {
+    color: #000;
 }
