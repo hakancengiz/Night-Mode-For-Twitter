@@ -299,3 +299,85 @@ a.account-group:focus .fullname,
 .Icon--verified:after {
     color: #000;
 }
+.LiveVideoHomePageModule-title {
+    color: #a0a0a0;
+}
+.LiveVideoHomePageModule-eventTitle {
+    color: #a0a0a0;
+}
+.DMActivity-header {
+    background-color: #171718;
+}
+.DMActivity-title {
+    color: #eee;
+}
+.DMInboxItem {
+    background-color: #171718;
+    border-bottom: 1px solid #141413;
+}
+.DMInboxItem-snippet {
+    color: #eee;
+}
+.DMInbox-content {
+    background-color: #171718;
+}
+.DMConversation-scrollContainer {
+    background-color: #171718;
+}
+.DirectMessage--sent .DirectMessage-text {
+    background-color: #ca202d;
+}
+.DMActivity-body {
+    background-color: #171718;
+}
+.t1-label {
+    color: #eee;
+}
+.DMUpdateName-name {
+    color: #eee;
+}
+.EdgeButton--primary,
+.EdgeButton--primary:focus {
+    background-color: #292727;
+    color: #eee;
+    border: 2px solid #cccccc;
+}
+.EdgeButton:hover {
+    background-color: #0288D1;
+    border: 2px solid #eee;
+    color: #eee;
+}
+.TweetImpressionsModule-heading {
+    color: #eee;
+}
+.ProfileSidebar .TweetImpressionsModule,
+.ProfileSidebar .ProfileLifelineInfo,
+.ProfileSidebar .RelatedUsers {
+    color: #eee;
+    background-color: #171718;
+    border: 1px solid #131314;
+    border-radius: 4px;
+}
+.FollowStatus {
+    background-color: #000;
+    color: #eee;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.username {
+    color: #a0a0a0;
+}
+.inline-reply-tweetbox  {
+    background-color: #171718;
+    border: 1px solid #141413;
+}
+.content-main .conversation-module>li.conversation-tweet-item .tweet, .content-main .conversation-module .conversation-header, .content-main .conversation-module .missing-tweets-bar {
+    background-color: #171718;
+}
+.ThreadedConversation-moreReplies {
+    background-color: #171718;
+    color: #eee;
+    border-top: 1px solid #141413;
+}
